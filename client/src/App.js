@@ -13,7 +13,7 @@ function App() {
       <h1 className='text-center'> Project Manager</h1> 
       <Router>
         <AllProjects path='/'/>
-        <AddProject path='/api/projects/new'/>
+        <AddProject path='/projects/new'/>
       </Router> 
     </div>
   );
