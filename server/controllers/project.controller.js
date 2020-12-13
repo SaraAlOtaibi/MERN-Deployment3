@@ -16,7 +16,7 @@ class ProjectController {
       .catch(err => res.json({ message: "Something went wrong", error: err }));
   }; */ 
 
-  createNewProject = (req, res) => {
+  createNewProject(req, res){
     // first make sure the review and name aren't already in use
     //Project.findOne({ _id: req.params })
       //.then(project => {
