@@ -101,7 +101,7 @@ const AllProjects = () => {
         </>
       }
       <div className='row'>
-          <button className='btn btn-primary btn-block' onClick={e => navigate('api/projects/new')} > Add New Project </button>
+          <button className='btn btn-primary btn-block' onClick={e => navigate('projects/new')} > Add New Project </button>
       </div> 
     </div>
   );
